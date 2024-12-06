@@ -8,7 +8,7 @@ $ docker build -t my-docker-image-webserver .
 $ docker run -d -p 9050:80 my-docker-image-webserver
 
 3 Tagger l'image pour Docker Hub 
-$ docker tag my-php-server <votre-identifiant>/my-docker-image-webserver:1.0
+$ docker tag my-docker-image-webserver jocerak/php_repos:1.0
 
 4 Publier l'image sur Docker Hub
-$ docker push <votre-identifiant>/my-docker-image-webserver:1.0
+$ docker push jocerak/php_repos:1.0
